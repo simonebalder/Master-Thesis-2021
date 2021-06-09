@@ -83,7 +83,7 @@ plot.composition.relAbun.fam <- plot_composition(ps.transformed.fam.rel,
                                              sample.sort = "sample.id",
                                              x.label = "samples") 
 plot.composition.relAbun.fam <- plot.composition.relAbun.fam + theme(legend.position = "bottom") 
-plot.composition.relAbun.fam <- plot.composition.relAbun.fam + scale_fill_manual(values = col) + theme_bw() 
+plot.composition.relAbun.fam <- plot.composition.relAbun.fam + scale_fill_manual("Family",values = col) + theme_bw() 
 plot.composition.relAbun.fam <- plot.composition.relAbun.fam + theme(axis.text.x = element_text(angle = 90)) 
 plot.composition.relAbun.fam <- plot.composition.relAbun.fam + ggtitle("Relative abundance") + guide_italics + theme(legend.title = element_text(size = 18))
 
@@ -94,7 +94,7 @@ plot.composition.relAbun.class <- plot_composition(ps.transformed.class.rel,
                                              sample.sort = "sample.id",
                                              x.label = "samples") 
 plot.composition.relAbun.class <- plot.composition.relAbun.class + theme(legend.position = "bottom") 
-plot.composition.relAbun.class <- plot.composition.relAbun.class + scale_fill_brewer("Family", palette = "Paired") + theme_bw() 
+plot.composition.relAbun.class <- plot.composition.relAbun.class + scale_fill_brewer("Class", palette = "Paired") + theme_bw() 
 plot.composition.relAbun.class <- plot.composition.relAbun.class + theme(axis.text.x = element_text(angle = 90)) 
 plot.composition.relAbun.class <- plot.composition.relAbun.class + ggtitle("Relative abundance") + guide_italics + theme(legend.title = element_text(size = 18))
 
@@ -135,7 +135,7 @@ plot.composition.relAbun.fam <- plot_composition(ps.transformed.fam.rel,
                                                  sample.sort = "sample.id",
                                                  x.label = "samples") 
 plot.composition.relAbun.fam <- plot.composition.relAbun.fam + theme(legend.position = "bottom") 
-plot.composition.relAbun.fam <- plot.composition.relAbun.fam + scale_fill_manual(values = col) + theme_bw() 
+plot.composition.relAbun.fam <- plot.composition.relAbun.fam + scale_fill_manual("Family", values = col) + theme_bw() 
 plot.composition.relAbun.fam <- plot.composition.relAbun.fam + theme(axis.text.x = element_text(angle = 90)) 
 plot.composition.relAbun.fam <- plot.composition.relAbun.fam + ggtitle("Relative abundance") + guide_italics + theme(legend.title = element_text(size = 18))
 
