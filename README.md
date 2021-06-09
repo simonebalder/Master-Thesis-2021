@@ -1,7 +1,7 @@
 # Master-Thesis-2021
 
 
-The scripts 1.Assign_taxonomy.R, 2.Transform_data.R and 2.ANCOM_BC.R all process the 16S amplicon data output from the Qiime2 pipeline.
+The scripts 1.Assign_taxonomy.R, 2.Transform_data.R and 2.ANCOM-BC.R all process the 16S amplicon data output from the Qiime2 pipeline.
 
 1.Assign_taxonomy uses the RDP database to assign taxonomy to the 16S amplicon data
 
